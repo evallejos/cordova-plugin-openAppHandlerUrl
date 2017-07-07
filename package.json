@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-param-url",
+  "version": "0.1.0",
+  "description": "Plugin para carturar parametros por url",
+  "cordova": {
+    "id": "cordova-plugin-param-url",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evallejos/cordova-plugin-openAppHandlerUrl.git"
+  },
+  "keywords": [
+    "handler",
+    "android",
+    "ios",
+    "ecosystem:cordova"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "evallejos",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/evallejos/cordova-plugin-openAppHandlerUrl/issues"
+  },
+  "homepage": "https://github.com/evallejos/cordova-plugin-openAppHandlerUrl#readme"
+}
