@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="cordova-plugin-openAppHandlerUrl"
+  version="0.1.0">
+  <name>cordova-plugin-openAppHandlerUrl</name>
+  <description>Plugin para cordova donde </description>
+  <author>evallejos</author>
+  <license>GPL</license>
+  <keywords>handler, android, ios</keywords>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+
+  <js-module src="www/cordovaOpenAppUrl.js" name="cordovaOpenAppUrl">
+    <clobbers target="cordovaOpenAppUrl" />
+  </js-module>
+
+  <asset src="www" target="cordovaOpenAppUrl" />
+</plugin>
